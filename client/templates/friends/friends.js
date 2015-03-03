@@ -1,0 +1,5 @@
+Template.profile.rendered = function() {
+
+
+};
+
