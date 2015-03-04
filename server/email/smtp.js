@@ -11,9 +11,9 @@ Meteor.startup(function () {
 
 // (server-side)
 Meteor.startup(function() {
-  Accounts.emailTemplates.from = 'Gentlenode <no-reply@gentlenode.com>';
+  Accounts.emailTemplates.from = 'Dates <no-reply@dates.com>';
 
-  Accounts.emailTemplates.siteName = 'Gentlenode Studio';
+  Accounts.emailTemplates.siteName = 'Dates';
 
   Accounts.emailTemplates.verifyEmail.subject = function(user) {
     return 'Confirm Your Email Address';
