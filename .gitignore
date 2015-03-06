@@ -3,4 +3,4 @@
 *.sublime-workspace
 dump
 settings.json
-.idea/
+.idea
