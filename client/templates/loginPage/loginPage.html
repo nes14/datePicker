@@ -1,10 +1,20 @@
 <template name="loginPage">
 
+    <div class="row text-center">
+        <img class="center-block" src="images/dateLogo.jpg" />
+    </div>
+    <div class="row text-center">
+        <div class="col-md-6 col-md-offset-3">
+            <a  href="{{ pathFor 'atSignIn' }}" class="center-block btn btn-default navbar-btn btn-lg ">Sign in</a>
+        </div>
 
-        <img style="display:block; text-align:center;" src="images/dateLogo.jpg" />
+    </div>
+    <div class="row text-center">
+        <div class="col-md-6 col-md-offset-3">
+            <a href="{{ pathFor 'atSignUp' }}" class="center-block btn btn-primary navbar-btn btn-lg">Register</a>
+        </div>
+    </div>
 
-        <a href="{{ pathFor 'atSignIn' }}" class="btn btn-default navbar-btn">Sign in</a>
-        <a href="{{ pathFor 'atSignUp' }}" class="btn btn-primary navbar-btn">Register</a>
 
 
 
