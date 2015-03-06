@@ -8,7 +8,7 @@ Router.route('/loginPage', {
 Router.route('/profile');
 Router.route('/friends');
 
-Router.route('/',{
+Router.route('/makeEvent',{
 	name: 'makeEvent'
 });
 
