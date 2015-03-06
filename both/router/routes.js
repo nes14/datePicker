@@ -12,3 +12,6 @@ Router.route('/makeEvent',{
 	name: 'makeEvent'
 });
 
+Router.route('/dashboard/:_id',{
+	name: 'eventPage'
+});
