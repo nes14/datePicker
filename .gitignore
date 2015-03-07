@@ -6,3 +6,4 @@ settings.json
 .idea/
 **/.idea/workspace.xml
 **/.idea/tasks.xm
+.idea/*
