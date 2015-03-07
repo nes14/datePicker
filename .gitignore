@@ -3,5 +3,6 @@
 *.sublime-workspace
 dump
 settings.json
-.idea
-.idea\workspace.xml
+.idea/
+**/.idea/workspace.xml
+**/.idea/tasks.xm
