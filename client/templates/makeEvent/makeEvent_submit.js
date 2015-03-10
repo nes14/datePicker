@@ -5,11 +5,7 @@ Template.makeEvent.events({
 		e.preventDefault();
         var eventDescription = document.getElementById("eventDescription").value;
 		var newEvent = {
-<<<<<<< HEAD
 			'userId': Meteor.userId(),
-=======
-
->>>>>>> origin/mf-styling
 			'eventName': $(e.target).parent().find('#eventName').val(),
 			'description': eventDescription,
 			'targetMonth': $(e.target).parent().find('#monthPicked').val()
