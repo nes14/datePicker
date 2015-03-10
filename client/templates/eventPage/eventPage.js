@@ -6,5 +6,3 @@ Template.eventPage.helpers({
 	 	return Events.find({_id: latestEvent});
 	 }
 });
-
-console.log(currentEvent);
