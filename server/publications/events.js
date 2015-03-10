@@ -3,5 +3,5 @@ Meteor.publish('events', function(){
 });
 
 Meteor.publish('findById', function(someId){
-	return Events.findOne({_id: this.someId});
+	return Events.find({_id: someId});
 });
