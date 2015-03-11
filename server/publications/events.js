@@ -8,7 +8,8 @@ Meteor.publish('findById', function(someId){
 
 Meteor.publish('usersDates', function(){
 	return Events.find({
-		userId: this.userId, 
-		
+		userId: this.userId //,
+		//todo: add selector for events user is invited to 
+		//as well as the events made by user
 	});
 });

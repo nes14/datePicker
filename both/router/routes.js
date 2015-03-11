@@ -12,6 +12,9 @@ Router.route('/makeEvent',{
 	name: 'makeEvent'
 });
 
-Router.route('/eventPage',{
+Router.route('/eventPage/:_id', function(){
+	var id = this.params._id;
+	this.render('eventPage', {_id : id});
+},{
 	name: 'eventPage'
 });
