@@ -12,6 +12,6 @@ Router.route('/makeEvent',{
 	name: 'makeEvent'
 });
 
-Router.route('/eventPage/:_id',{
+Router.route('/eventPage',{
 	name: 'eventPage'
 });

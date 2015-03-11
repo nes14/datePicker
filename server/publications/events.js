@@ -5,3 +5,10 @@ Meteor.publish('events', function(){
 Meteor.publish('findById', function(someId){
 	return Events.find({_id: someId});
 });
+
+Meteor.publish('usersDates', function(){
+	return Events.find({
+		userId: this.userId, 
+		
+	});
+});
