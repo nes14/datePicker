@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"this",
+				"thisId"
+			],
+			[
+				"t",
+				"theSessionId"
+			],
+			[
 				"eve",
 				"eventPageData"
 			],
@@ -304,10 +312,6 @@
 				"shadowRoot"
 			],
 			[
-				"this",
-				"thisFile"
-			],
-			[
 				"clo",
 				"clonedLight"
 			],
@@ -381,29 +385,26 @@
 	"expanded_folders":
 	[
 		"/Users/mariafaulisi/Projects/datePicker",
-		"/Users/mariafaulisi/Projects/datePicker/both",
 		"/Users/mariafaulisi/Projects/datePicker/both/collections",
-		"/Users/mariafaulisi/Projects/datePicker/client",
-		"/Users/mariafaulisi/Projects/datePicker/client/subscriptions",
+		"/Users/mariafaulisi/Projects/datePicker/both/controllers",
+		"/Users/mariafaulisi/Projects/datePicker/both/router",
 		"/Users/mariafaulisi/Projects/datePicker/client/templates",
 		"/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard",
-		"/Users/mariafaulisi/Projects/datePicker/client/templates/eventPage",
-		"/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent",
-		"/Users/mariafaulisi/Projects/datePicker/server",
 		"/Users/mariafaulisi/Projects/datePicker/server/publications"
 	],
 	"file_history":
 	[
+		"/Users/mariafaulisi/Projects/datePicker/both/router/routes.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/eventPage/eventPage.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.html",
+		"/Users/mariafaulisi/Projects/datePicker/.gitignore",
 		"/Users/mariafaulisi/Projects/datePicker/server/publications/events.js",
 		"/Users/mariafaulisi/Projects/datePicker/client/subscriptions/events_subscription.js",
-		"/Users/mariafaulisi/Projects/datePicker/client/templates/eventPage/eventPage.js",
 		"/Users/mariafaulisi/Projects/datePicker/client/templates/eventPage/eventPage.html",
 		"/Users/mariafaulisi/Projects/datePicker/both/collections/events.js",
 		"/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent/makeEvent.html",
 		"/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent/makeEvent_submit.js",
-		"/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.html",
-		"/Users/mariafaulisi/Projects/datePicker/both/router/routes.js",
-		"/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.js",
 		"/Users/mariafaulisi/Projects/datePicker/both/router/config.js",
 		"/Users/mariafaulisi/Projects/datePicker/client/helpers/makeEventHelper.js",
 		"/Users/mariafaulisi/Projects/datePicker/client/templates/calendars/calendar.html",
@@ -517,6 +518,7 @@
 						],
 						"settings":
 						{
+							"default_dir": "/Users/mariafaulisi/Projects/datePicker",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
