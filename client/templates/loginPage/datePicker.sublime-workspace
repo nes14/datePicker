@@ -1,0 +1,618 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"eve",
+				"eventPageData"
+			],
+			[
+				"input",
+				"inputm	input - month"
+			],
+			[
+				"col",
+				"cols	Attr"
+			],
+			[
+				"data",
+				"dataObject"
+			],
+			[
+				"curr",
+				"currentVal"
+			],
+			[
+				"cu",
+				"currentVal"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"tally",
+				"tallyButton"
+			],
+			[
+				"episode",
+				"episode-open"
+			],
+			[
+				"episdes",
+				"episodes"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"post",
+				"postWithSameLink"
+			],
+			[
+				"po",
+				"postWithSameLink"
+			],
+			[
+				"loading",
+				"loadingTemplate"
+			],
+			[
+				"on",
+				"onBeforeAction"
+			],
+			[
+				"rest",
+				"restoreBanners"
+			],
+			[
+				"re",
+				"restoreBanners"
+			],
+			[
+				"creat",
+				"createBanner"
+			],
+			[
+				"store",
+				"storeBanners"
+			],
+			[
+				"ba",
+				"banners"
+			],
+			[
+				"loca",
+				"localStorage"
+			],
+			[
+				"clear",
+				"clearBanners"
+			],
+			[
+				"sv",
+				"svgBox"
+			],
+			[
+				"tag",
+				"newTag"
+			],
+			[
+				"all",
+				"allLightNodes"
+			],
+			[
+				"create",
+				"createElement"
+			],
+			[
+				"new",
+				"newTag"
+			],
+			[
+				"ligh",
+				"lightNodesLeft"
+			],
+			[
+				"appe",
+				"appendChild"
+			],
+			[
+				"qu",
+				"querySelector"
+			],
+			[
+				"li",
+				"lightNodesLeft"
+			],
+			[
+				"light",
+				"lightNodesLeft"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"bann",
+				"banner"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"epi",
+				"episodes"
+			],
+			[
+				"togg",
+				"toggleParent"
+			],
+			[
+				"pare",
+				"parentNode"
+			],
+			[
+				"da",
+				"dataset"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"p",
+				"parentNode"
+			],
+			[
+				"set",
+				"setAttribute"
+			],
+			[
+				"buil",
+				"buildDossier"
+			],
+			[
+				"bui",
+				"buildDossier"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"ce",
+				"cellspacing	Attr"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"pin",
+				"pinkieBox"
+			],
+			[
+				"anim",
+				"animation-delay"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"l",
+				"last_name"
+			],
+			[
+				"my",
+				"mysqli"
+			],
+			[
+				"mysql_connect_e",
+				"mysqli_connect_error"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"prod",
+				"prodResult"
+			],
+			[
+				"mysqli",
+				"mysqli_query"
+			],
+			[
+				"b",
+				"border	Attr"
+			],
+			[
+				"st",
+				"stringNum"
+			],
+			[
+				"json",
+				"json2"
+			],
+			[
+				"ic",
+				"icecream"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"dire",
+				"dirname"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"shad",
+				"shadowRoot"
+			],
+			[
+				"this",
+				"thisFile"
+			],
+			[
+				"clo",
+				"clonedLight"
+			],
+			[
+				"ma",
+				"marker2"
+			],
+			[
+				"map",
+				"map2"
+			],
+			[
+				"get",
+				"getElementById"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: d",
+				"Package Control: Disable Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mariafaulisi/Projects/datePicker",
+		"/Users/mariafaulisi/Projects/datePicker/both",
+		"/Users/mariafaulisi/Projects/datePicker/both/collections",
+		"/Users/mariafaulisi/Projects/datePicker/client",
+		"/Users/mariafaulisi/Projects/datePicker/client/subscriptions",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/eventPage",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent",
+		"/Users/mariafaulisi/Projects/datePicker/server",
+		"/Users/mariafaulisi/Projects/datePicker/server/publications"
+	],
+	"file_history":
+	[
+		"/Users/mariafaulisi/Projects/datePicker/server/publications/events.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/subscriptions/events_subscription.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/eventPage/eventPage.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/eventPage/eventPage.html",
+		"/Users/mariafaulisi/Projects/datePicker/both/collections/events.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent/makeEvent.html",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent/makeEvent_submit.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.html",
+		"/Users/mariafaulisi/Projects/datePicker/both/router/routes.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.js",
+		"/Users/mariafaulisi/Projects/datePicker/both/router/config.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/helpers/makeEventHelper.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/calendars/calendar.html",
+		"/Users/mariafaulisi/Projects/datePicker/client/helpers/calendarHelper.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/layouts/_header.html",
+		"/Users/mariafaulisi/Projects/datePicker/both/collections/items.js",
+		"/Users/mariafaulisi/Projects/datePicker/both/calendars/calendar.html",
+		"/Users/mariafaulisi/Desktop/calendar.js",
+		"/Users/mariafaulisi/Desktop/calendar.html",
+		"/Users/mariafaulisi/Projects/microscope/lib/permissions.js",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/posts/post_edit.js",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/posts/post_edit.html",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/posts/post_submit.js",
+		"/Users/mariafaulisi/Projects/microscope/lib/router.js",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/posts/posts_list.js",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/posts/post_submit.html",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/includes/header.html",
+		"/Users/mariafaulisi/Projects/microscope/client/helpers/config.js",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/application/layout.html",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/application/layout.js",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/posts/post_page.html",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/includes/loading.html",
+		"/Users/mariafaulisi/Projects/microscope/client/main.html",
+		"/Users/mariafaulisi/Projects/microscope/client/main.js",
+		"/Users/mariafaulisi/Projects/microscope/server/publications.js",
+		"/Users/mariafaulisi/Projects/microscope/server/fixtures.js",
+		"/Users/mariafaulisi/Projects/microscope/lib/collections/posts.js",
+		"/Users/mariafaulisi/Desktop/cw-wk2-banners/banner.js",
+		"/Users/mariafaulisi/Desktop/cw-wk2-banners/index.html",
+		"/Users/mariafaulisi/Projects/microscope/client/stylesheets/style.css",
+		"/Users/mariafaulisi/Desktop/hw-wk2-simpsons-starter/simpsons.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/svGlideEDITED/svGlideTest.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/svGlideEDITED/svGlide.html",
+		"/Users/mariafaulisi/Desktop/svGlideEDITED/svGlide.html",
+		"/Users/mariafaulisi/Desktop/hw-wk2-simpsons-starter/index.html",
+		"/Users/mariafaulisi/Desktop/svGlideNotWorking",
+		"/Users/mariafaulisi/Desktop/email/codeTest.html",
+		"/Users/mariafaulisi/Desktop/email/email.html",
+		"/Users/mariafaulisi/Desktop/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/mytasks/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/mytasks/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/addEmployee/process.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/addEmployee/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/addEmployee/database.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/php/movies.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/jsonTry/01-04/json/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/jsonTry/03-03/workingfolder/json/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/jsonTry/02-02/json/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/jsonTry/02-03/workingfolder/json/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/php/index.php",
+		"/Users/mariafaulisi/Desktop/googApi.html",
+		"/Users/mariafaulisi/Desktop/svGlide/svGlide.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"calendar.js",
+			"attr",
+			"episode-list",
+			"lightNodesLeft",
+			"firstAnimation",
+			"break"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "datePicker.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/dates.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

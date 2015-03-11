@@ -6,8 +6,8 @@
     </div>
 
     <ul class="list-group">
-      {{#each items}}
-        <li class="list-group-item">{{ name }} <span class="label label-default">{{ rating }}</span></li>
+      {{#each createdByUser}}
+        <a href="#" class="eventLink"><li class="list-group-item">{{ eventName }} <span class="label label-default">{{ description }}</span></li></a>
       {{/each}}
     </ul>
 

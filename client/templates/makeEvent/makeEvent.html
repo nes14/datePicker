@@ -1,0 +1,13 @@
+<template name="makeEvent">
+	{{> _header}}
+	<div class="template-makeEvent">	
+		<h1>Make a new Event</h1>
+		<form class="makeEventForm">
+			<input type="text" name="eventName" id="eventName" value="" placeholder="Event Name"><br>
+			<textarea name="eventDescription" id="eventDescription" type="text" placeholder="Give a little description ;)" rows="8" cols="50"></textarea><br>
+			<h3>Choose the event month:</h3><br>
+			<input type="month" name="" value="" placeholder="Month" id="monthPicked"><br>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+</template>
