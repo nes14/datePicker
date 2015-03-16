@@ -7,7 +7,12 @@
 
     <ul class="list-group">
       {{#each createdByUser}}
-        <a href="#" class="eventLink"><li class="list-group-item">{{ eventName }} <span class="label label-default">{{ description }}</span></li></a>
+       <!-- <a href="#" class="eventLink"><li class="list-group-item">{{ eventName }} <span class="label label-default">{{ description }}</span></li></a>-->
+        <li class="list-group-item">
+          <a href="#" class="eventLink">{{eventName}}</a>{{description}}
+          <button class="deleteEventBtn">Delete Event</button>
+          <button class="editEventBtn">Edit Event</button>
+        </li>
       {{/each}}
     </ul>
 
