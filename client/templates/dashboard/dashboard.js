@@ -1,6 +1,10 @@
 Template.dashboard.helpers({
 	createdByUser: function(){
-		return Events.find({userId: Meteor.userId()});
+		if(Events.find({userId: Meteor.userId()}).count() === 0){
+			return [{eventName: "Oh noes!  You don'h have any events yet, you should make one!"}];
+		}else{
+			return Events.find({userId: Meteor.userId()});
+		}
 	}
 });
 
@@ -12,3 +16,4 @@ Template.dashboard.events({
 		Router.go('eventPage', {_id: thisId});
 	}
 });
+

@@ -4,3 +4,5 @@ Template.eventPage.helpers({
 	 	return Events.find({_id: Session.get('newEventId')});
 	 }
 });
+
+
