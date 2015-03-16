@@ -6,5 +6,8 @@ Events.allow({
 	}, 
 	remove: function(userId, doc){
 		return !! userId;
+	}, 
+	update: function(userId, doc, fieldnames){
+		return !! userId;
 	}
 });

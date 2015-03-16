@@ -1,5 +1,3 @@
-
-
 Template.makeEvent.events({
 	'submit form': function(e){
 		e.preventDefault();

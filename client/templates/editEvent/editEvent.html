@@ -1,0 +1,15 @@
+<template name="editEvent">
+	{{>_header}}
+<div class="template-editEvent">
+	<h1>Edit your Event</h1>
+
+	<form class="editEventForm">
+		<input type="text" name="editEventName" id="editEventName"><br>
+		<textarea name="editEventDescription" id="editEventDescription" type="text" rows="8" cols="50">{{description}}</textarea><br>
+		<h3>Choose the event month:</h3><br>
+		<input type="month" name="" value="" placeholder="Month" id="monthPicked"><br>
+		<button type="submit" id="editSubmit">Save Changes</button>
+	</form>
+
+</div>
+</template>
