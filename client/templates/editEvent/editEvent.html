@@ -2,7 +2,7 @@
 	{{>_header}}
 <div class="template-editEvent">
 	<h1>Edit your Event</h1>
-
+	{{#each existingEvent}}
 	<form class="editEventForm">
 		<input type="text" name="editEventName" id="editEventName"><br>
 		<textarea name="editEventDescription" id="editEventDescription" type="text" rows="8" cols="50">{{description}}</textarea><br>
@@ -10,6 +10,6 @@
 		<input type="month" name="" value="" placeholder="Month" id="monthPicked"><br>
 		<button type="submit" id="editSubmit">Save Changes</button>
 	</form>
-
+	{{/each}}
 </div>
 </template>

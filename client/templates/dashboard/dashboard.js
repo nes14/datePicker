@@ -1,7 +1,10 @@
 Template.dashboard.helpers({
 	createdByUser: function(){
 		if(Events.find({userId: Meteor.userId()}).count() === 0){
-			return [{eventName: "Oh noes!  You don'h have any events yet, you should make one!"}];
+			var deleteBtn = $('.deleteEventBtn');
+			var editBtn = $('.editEventBtn');
+			deleteBtn.remove();
+			return [{eventName: "Oh noes!  You don't have any events yet, you should make one!"}];
 		}else{
 			return Events.find({userId: Meteor.userId()});
 		}
