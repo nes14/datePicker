@@ -14,7 +14,8 @@ Router.route('/makeEvent',{
 });
 
 Router.route('/eventPage/:_id', {
-	name: 'eventPage'
+	name: 'eventPage',
+	data: function(){return Events.findOne(this.params._id);}
 });
 
 Router.route('/editEvent/:_id', {
