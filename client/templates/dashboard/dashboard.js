@@ -1,19 +1,5 @@
 Template.dashboard.helpers({
 	createdByUser: function(){
-<<<<<<< HEAD
-		return Events.find({userId: Meteor.userId()});
-	}
-});
-
-Template.dashboard.events({
-	'click .eventLink': function(e){
-		e.preventDefault();
-		var thisId = this._id;
-		Session.set('newEventId', thisId);
-		Router.go('eventPage', {_id: thisId});
-	}
-});
-=======
 		if(Events.find({userId: Meteor.userId()}).count() === 0){
 			var deleteBtn = $('.deleteEventBtn');
 			var editBtn = $('.editEventBtn');
@@ -47,4 +33,3 @@ Template.dashboard.events({
 	}
 });
 
->>>>>>> mf-second-branch
