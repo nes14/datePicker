@@ -1,0 +1,874 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"this",
+				"thisEvent"
+			],
+			[
+				"del",
+				"deleteBtn"
+			],
+			[
+				"de",
+				"deleteEventBtn"
+			],
+			[
+				"edi",
+				"editBtn"
+			],
+			[
+				"d",
+				"deleteBtn"
+			],
+			[
+				"editE",
+				"editEventBtn"
+			],
+			[
+				"t",
+				"targetMonth"
+			],
+			[
+				"eve",
+				"eventPageData"
+			],
+			[
+				"input",
+				"inputm	input - month"
+			],
+			[
+				"col",
+				"cols	Attr"
+			],
+			[
+				"data",
+				"dataObject"
+			],
+			[
+				"curr",
+				"currentVal"
+			],
+			[
+				"cu",
+				"currentVal"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"tally",
+				"tallyButton"
+			],
+			[
+				"episode",
+				"episode-open"
+			],
+			[
+				"episdes",
+				"episodes"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"post",
+				"postWithSameLink"
+			],
+			[
+				"po",
+				"postWithSameLink"
+			],
+			[
+				"loading",
+				"loadingTemplate"
+			],
+			[
+				"on",
+				"onBeforeAction"
+			],
+			[
+				"rest",
+				"restoreBanners"
+			],
+			[
+				"re",
+				"restoreBanners"
+			],
+			[
+				"creat",
+				"createBanner"
+			],
+			[
+				"store",
+				"storeBanners"
+			],
+			[
+				"ba",
+				"banners"
+			],
+			[
+				"loca",
+				"localStorage"
+			],
+			[
+				"clear",
+				"clearBanners"
+			],
+			[
+				"sv",
+				"svgBox"
+			],
+			[
+				"tag",
+				"newTag"
+			],
+			[
+				"all",
+				"allLightNodes"
+			],
+			[
+				"create",
+				"createElement"
+			],
+			[
+				"new",
+				"newTag"
+			],
+			[
+				"ligh",
+				"lightNodesLeft"
+			],
+			[
+				"appe",
+				"appendChild"
+			],
+			[
+				"qu",
+				"querySelector"
+			],
+			[
+				"li",
+				"lightNodesLeft"
+			],
+			[
+				"light",
+				"lightNodesLeft"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"bann",
+				"banner"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"epi",
+				"episodes"
+			],
+			[
+				"togg",
+				"toggleParent"
+			],
+			[
+				"pare",
+				"parentNode"
+			],
+			[
+				"da",
+				"dataset"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"p",
+				"parentNode"
+			],
+			[
+				"set",
+				"setAttribute"
+			],
+			[
+				"buil",
+				"buildDossier"
+			],
+			[
+				"bui",
+				"buildDossier"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"ce",
+				"cellspacing	Attr"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"pin",
+				"pinkieBox"
+			],
+			[
+				"anim",
+				"animation-delay"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"l",
+				"last_name"
+			],
+			[
+				"my",
+				"mysqli"
+			],
+			[
+				"mysql_connect_e",
+				"mysqli_connect_error"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"prod",
+				"prodResult"
+			],
+			[
+				"mysqli",
+				"mysqli_query"
+			],
+			[
+				"b",
+				"border	Attr"
+			],
+			[
+				"st",
+				"stringNum"
+			],
+			[
+				"json",
+				"json2"
+			],
+			[
+				"ic",
+				"icecream"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"dire",
+				"dirname"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"shad",
+				"shadowRoot"
+			],
+			[
+				"clo",
+				"clonedLight"
+			],
+			[
+				"ma",
+				"marker2"
+			],
+			[
+				"map",
+				"map2"
+			],
+			[
+				"get",
+				"getElementById"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.html",
+			"settings":
+			{
+				"buffer_size": 498,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.js",
+			"settings":
+			{
+				"buffer_size": 933,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/editEvent/editEvent.html",
+			"settings":
+			{
+				"buffer_size": 570,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/editEvent/editEvent.js",
+			"settings":
+			{
+				"buffer_size": 185,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mariafaulisi/Projects/datePicker/both/router/routes.js",
+			"settings":
+			{
+				"buffer_size": 560,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent/makeEvent_submit.js",
+			"settings":
+			{
+				"buffer_size": 506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mariafaulisi/Projects/datePicker/server/publications/events.js",
+			"settings":
+			{
+				"buffer_size": 358,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: d",
+				"Package Control: Disable Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mariafaulisi/Projects/datePicker",
+		"/Users/mariafaulisi/Projects/datePicker/both",
+		"/Users/mariafaulisi/Projects/datePicker/both/collections",
+		"/Users/mariafaulisi/Projects/datePicker/both/router",
+		"/Users/mariafaulisi/Projects/datePicker/client",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/editEvent",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/eventPage",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/layouts",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent",
+		"/Users/mariafaulisi/Projects/datePicker/public",
+		"/Users/mariafaulisi/Projects/datePicker/server",
+		"/Users/mariafaulisi/Projects/datePicker/server/permissions",
+		"/Users/mariafaulisi/Projects/datePicker/server/publications",
+		"/Users/mariafaulisi/Projects/datePicker/server/templates/emails"
+	],
+	"file_history":
+	[
+		"/Users/mariafaulisi/Projects/datePicker/both/router/routes.js",
+		"/Users/mariafaulisi/Projects/datePicker/both/collections/events.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent/makeEvent_submit.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/editEvent/editEvent.html",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.html",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/editEvent.html",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/eventPage/eventPage.html",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/stylesheets/base/lib/font-awesome/list.import.less",
+		"/Users/mariafaulisi/Projects/datePicker/.meteor/local/build/programs/server/npm/logging/node_modules/cli-color/node_modules/es5-ext/lib/Array/prototype/last-index.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/eventPage/eventPage.js",
+		"/Users/mariafaulisi/Projects/datePicker/.gitignore",
+		"/Users/mariafaulisi/Projects/datePicker/server/publications/events.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/subscriptions/events_subscription.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent/makeEvent.html",
+		"/Users/mariafaulisi/Projects/datePicker/both/router/config.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/helpers/makeEventHelper.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/calendars/calendar.html",
+		"/Users/mariafaulisi/Projects/datePicker/client/helpers/calendarHelper.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/layouts/_header.html",
+		"/Users/mariafaulisi/Projects/datePicker/both/collections/items.js",
+		"/Users/mariafaulisi/Projects/datePicker/both/calendars/calendar.html",
+		"/Users/mariafaulisi/Desktop/calendar.js",
+		"/Users/mariafaulisi/Desktop/calendar.html",
+		"/Users/mariafaulisi/Projects/microscope/lib/permissions.js",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/posts/post_edit.js",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/posts/post_edit.html",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/posts/post_submit.js",
+		"/Users/mariafaulisi/Projects/microscope/lib/router.js",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/posts/posts_list.js",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/posts/post_submit.html",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/includes/header.html",
+		"/Users/mariafaulisi/Projects/microscope/client/helpers/config.js",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/application/layout.html",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/application/layout.js",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/posts/post_page.html",
+		"/Users/mariafaulisi/Projects/microscope/client/templates/includes/loading.html",
+		"/Users/mariafaulisi/Projects/microscope/client/main.html",
+		"/Users/mariafaulisi/Projects/microscope/client/main.js",
+		"/Users/mariafaulisi/Projects/microscope/server/publications.js",
+		"/Users/mariafaulisi/Projects/microscope/server/fixtures.js",
+		"/Users/mariafaulisi/Projects/microscope/lib/collections/posts.js",
+		"/Users/mariafaulisi/Desktop/cw-wk2-banners/banner.js",
+		"/Users/mariafaulisi/Desktop/cw-wk2-banners/index.html",
+		"/Users/mariafaulisi/Projects/microscope/client/stylesheets/style.css",
+		"/Users/mariafaulisi/Desktop/hw-wk2-simpsons-starter/simpsons.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/svGlideEDITED/svGlideTest.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/svGlideEDITED/svGlide.html",
+		"/Users/mariafaulisi/Desktop/svGlideEDITED/svGlide.html",
+		"/Users/mariafaulisi/Desktop/hw-wk2-simpsons-starter/index.html",
+		"/Users/mariafaulisi/Desktop/svGlideNotWorking",
+		"/Users/mariafaulisi/Desktop/email/codeTest.html",
+		"/Users/mariafaulisi/Desktop/email/email.html",
+		"/Users/mariafaulisi/Desktop/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/mytasks/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/mytasks/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/addEmployee/process.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/addEmployee/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/addEmployee/database.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/php/movies.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/jsonTry/01-04/json/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/jsonTry/03-03/workingfolder/json/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/jsonTry/02-02/json/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/jsonTry/02-03/workingfolder/json/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/php/index.php",
+		"/Users/mariafaulisi/Desktop/googApi.html",
+		"/Users/mariafaulisi/Desktop/svGlide/svGlide.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"calendar.js",
+			"attr",
+			"episode-list",
+			"lightNodesLeft",
+			"firstAnimation",
+			"break"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								737,
+								737
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/editEvent/editEvent.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								570,
+								570
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/editEvent/editEvent.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/mariafaulisi/Projects/datePicker/both/router/routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								551,
+								551
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent/makeEvent_submit.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/mariafaulisi/Projects/datePicker/server/publications/events.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "datePicker.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/dates.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -6,5 +6,13 @@ Events.allow({
 	}, 
 	remove: function(userId, doc){
 		return !! userId;
+<<<<<<< HEAD
 	}
 });
+=======
+	}, 
+	update: function(userId, doc, fieldnames){
+		return !! userId;
+	}
+});
+>>>>>>> mf-second-branch

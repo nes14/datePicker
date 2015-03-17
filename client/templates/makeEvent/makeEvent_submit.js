@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> mf-second-branch
 Template.makeEvent.events({
 	'submit form': function(e){
 		e.preventDefault();
