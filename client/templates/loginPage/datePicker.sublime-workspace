@@ -5,11 +5,31 @@
 		[
 			[
 				"this",
-				"thisId"
+				"thisEvent"
+			],
+			[
+				"del",
+				"deleteBtn"
+			],
+			[
+				"de",
+				"deleteEventBtn"
+			],
+			[
+				"edi",
+				"editBtn"
+			],
+			[
+				"d",
+				"deleteBtn"
+			],
+			[
+				"editE",
+				"editEventBtn"
 			],
 			[
 				"t",
-				"theSessionId"
+				"targetMonth"
 			],
 			[
 				"eve",
@@ -335,7 +355,55 @@
 			"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.html",
 			"settings":
 			{
-				"buffer_size": 655,
+				"buffer_size": 498,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.js",
+			"settings":
+			{
+				"buffer_size": 933,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/editEvent/editEvent.html",
+			"settings":
+			{
+				"buffer_size": 570,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/editEvent/editEvent.js",
+			"settings":
+			{
+				"buffer_size": 185,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mariafaulisi/Projects/datePicker/both/router/routes.js",
+			"settings":
+			{
+				"buffer_size": 560,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent/makeEvent_submit.js",
+			"settings":
+			{
+				"buffer_size": 506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mariafaulisi/Projects/datePicker/server/publications/events.js",
+			"settings":
+			{
+				"buffer_size": 358,
 				"line_ending": "Unix"
 			}
 		}
@@ -387,31 +455,38 @@
 	[
 		"/Users/mariafaulisi/Projects/datePicker",
 		"/Users/mariafaulisi/Projects/datePicker/both",
+		"/Users/mariafaulisi/Projects/datePicker/both/collections",
+		"/Users/mariafaulisi/Projects/datePicker/both/router",
 		"/Users/mariafaulisi/Projects/datePicker/client",
-		"/Users/mariafaulisi/Projects/datePicker/client/stylesheets",
-		"/Users/mariafaulisi/Projects/datePicker/client/stylesheets/base",
-		"/Users/mariafaulisi/Projects/datePicker/client/stylesheets/base/lib",
-		"/Users/mariafaulisi/Projects/datePicker/client/stylesheets/base/lib/bootstrap",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates",
 		"/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/editEvent",
 		"/Users/mariafaulisi/Projects/datePicker/client/templates/eventPage",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/layouts",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent",
+		"/Users/mariafaulisi/Projects/datePicker/public",
 		"/Users/mariafaulisi/Projects/datePicker/server",
-		"/Users/mariafaulisi/Projects/datePicker/server/seeds"
+		"/Users/mariafaulisi/Projects/datePicker/server/permissions",
+		"/Users/mariafaulisi/Projects/datePicker/server/publications",
+		"/Users/mariafaulisi/Projects/datePicker/server/templates/emails"
 	],
 	"file_history":
 	[
+		"/Users/mariafaulisi/Projects/datePicker/both/router/routes.js",
+		"/Users/mariafaulisi/Projects/datePicker/both/collections/events.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent/makeEvent_submit.js",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/editEvent/editEvent.html",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.html",
+		"/Users/mariafaulisi/Projects/datePicker/client/templates/editEvent.html",
 		"/Users/mariafaulisi/Projects/datePicker/client/templates/eventPage/eventPage.html",
 		"/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.js",
 		"/Users/mariafaulisi/Projects/datePicker/client/stylesheets/base/lib/font-awesome/list.import.less",
 		"/Users/mariafaulisi/Projects/datePicker/.meteor/local/build/programs/server/npm/logging/node_modules/cli-color/node_modules/es5-ext/lib/Array/prototype/last-index.js",
 		"/Users/mariafaulisi/Projects/datePicker/client/templates/eventPage/eventPage.js",
-		"/Users/mariafaulisi/Projects/datePicker/both/router/routes.js",
-		"/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.html",
 		"/Users/mariafaulisi/Projects/datePicker/.gitignore",
 		"/Users/mariafaulisi/Projects/datePicker/server/publications/events.js",
 		"/Users/mariafaulisi/Projects/datePicker/client/subscriptions/events_subscription.js",
-		"/Users/mariafaulisi/Projects/datePicker/both/collections/events.js",
 		"/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent/makeEvent.html",
-		"/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent/makeEvent_submit.js",
 		"/Users/mariafaulisi/Projects/datePicker/both/router/config.js",
 		"/Users/mariafaulisi/Projects/datePicker/client/helpers/makeEventHelper.js",
 		"/Users/mariafaulisi/Projects/datePicker/client/templates/calendars/calendar.html",
@@ -504,7 +579,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -513,15 +588,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 655,
+						"buffer_size": 498,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								533,
-								533
+								0,
+								0
 							]
 						],
 						"settings":
@@ -534,7 +609,177 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/dashboard/dashboard.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								737,
+								737
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/editEvent/editEvent.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								570,
+								570
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/editEvent/editEvent.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/mariafaulisi/Projects/datePicker/both/router/routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								551,
+								551
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/mariafaulisi/Projects/datePicker/client/templates/makeEvent/makeEvent_submit.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/mariafaulisi/Projects/datePicker/server/publications/events.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -621,7 +866,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 275.0,
+	"side_bar_width": 256.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
