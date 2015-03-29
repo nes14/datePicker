@@ -8,10 +8,10 @@
         {{#if hidingButtons}}
             <ul class="list-group">
                 {{#each createdByUser}}
-                    <li class="list-group-item">
+                    <li class="list-group-item" >
                         <a href="#" class="eventLink">{{eventName}}</a><br/>{{description}}
-                        <button class="deleteEventBtn">Delete Event</button>
-                        <button class="editEventBtn">Edit Event</button>
+                        <button class="deleteEventBtn btn btn-primary dashboardButtons ">Delete Event</button>
+                        <button class="editEventBtn btn btn-primary dashboardButtons">Edit Event</button>
                     </li>
                 {{/each}}
             </ul>
