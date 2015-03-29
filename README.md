@@ -1,4 +1,4 @@
-![Dates](https://raw.githubusercontent.com/neilinglese/dates/master/public/images/dateLogo.jpg)
+![Dates](https://raw.githubusercontent.com/neilinglese/datePicker/master/public/images/dateLogo.jpg)
 
 
 # dates
