@@ -64,5 +64,6 @@ Template.editEvent.events({
         /*resetting the eventData array*/
         eventData =[];
         Router.go('eventPage', {_id: this._id});
+        Notifications.success(updatedEvent.eventName, 'Your event was edited successfully');
     }//closes submit form function
 });//closes template events helper

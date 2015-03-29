@@ -1,3 +1,8 @@
+Meteor.startup(function () {
+    _.extend(Notifications.defaultOptions, {
+        timeout: 3000
+    });
+});
 
 Template.dashboard.rendered = function() {
 
