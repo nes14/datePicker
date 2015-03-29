@@ -1,15 +1,22 @@
 <template name="editEvent">
-	{{>_header}}
-<div class="template-editEvent">
-	<h1>Edit your Event</h1>
-
-	<form class="editEventForm">
-		<input type="text" name="editEventName" id="editEventName" value={{eventName}}><br>
-		<textarea name="editEventDescription" id="editEventDescription" type="text" rows="8" cols="50">{{description}}</textarea><br>
-		<h3>Choose the event month:</h3><br>
-		<input type="month" name="" value={{targetMonth}} placeholder="Month" id="editMonthPicked"><br>
-		<button type="submit" id="editSubmit">Save Changes</button>
-	</form>
-
-</div>
+    {{>_header}}
+    <div class="template-editEvent">
+        <div class="page-header">
+            <h1>Edit your Event</h1>
+        </div>
+        <div class="eventDetails">
+            <div class="form-style-6">
+                <h1>Edit Event Information</h1>
+                <form>
+                    <input type="text" name="editEventName" id="editEventName" value={{eventName}}><br>
+                    <textarea name="editEventDescription" id="editEventDescription" type="text" rows="8" cols="50">{{description}}</textarea><br>
+                    <input type="submit" id="editSubmit" value="Create" />
+                </form>
+            </div>
+        </div>
+        <div class="calView">
+            <div id ="eventCalendar">
+            </div>
+        </div>
+    </div>
 </template>
