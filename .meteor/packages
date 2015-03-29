@@ -21,3 +21,8 @@ cunneen:mailgun
 iron:router@1.0.0
 yasinuslu:blaze-meta
 email
+aldeed:autoform
+bootstrap
+rzymek:fullcalendar
+cfs:standard-packages
+cfs:filesystem
