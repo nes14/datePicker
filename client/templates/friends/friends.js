@@ -12,3 +12,10 @@ Template.friends.events({'submit form' : function(event, template) {
     console.log(result);
 
 }});
+
+Template.friends.helpers({
+
+    userDirectory: function () {
+        return Meteor.users.find();
+    }
+});

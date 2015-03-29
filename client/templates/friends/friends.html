@@ -8,10 +8,15 @@
             Email:<input type="text" name="Email" value="Enter an email address"><br/>
             <input type="submit" value="Search">
         </form>
-        <ol>
-            {{#each returned_users}}
-                <li>this</li>
+        <ul>
+            {{#each userDirectory}}
+                <li>
+                    {{_id}}
+                    {{profile.name}}
+                    {{profile.about}}
+                </li>
+
             {{/each}}
-        </ol>
+        </ul>
     </div>
 </template>
