@@ -28,8 +28,6 @@ Template.dashboard.helpers({
     }
 });
 
-
-
 Template.dashboard.events({
 
     'click .eventLink': function(e){

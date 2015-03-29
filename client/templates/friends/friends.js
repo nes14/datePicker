@@ -1,9 +1,6 @@
 Template.friends.rendered = function() {
-
-
 };
 
-theSearchResults = new Meteor.Collection('theSearchResults');
 
 Template.friends.events({'submit form' : function(event, template) {
     event.preventDefault(); //prevent page reload

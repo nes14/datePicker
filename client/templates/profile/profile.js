@@ -1,8 +1,5 @@
-
 Template.profile.rendered = function() {
-
 };
-
 
 Template.profile.events({
     'submit': function(event){
