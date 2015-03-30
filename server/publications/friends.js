@@ -20,3 +20,12 @@ Meteor.publish("userlist", function () {
         console.log(error);
     }
 });
+
+Meteor.publish('friendsList', function(){
+
+    var currentUser = Meteor.users.findOne(this.userId,{fields: {'profile.friends':1}}) ;
+    return Meteor.users.find({ _id: { $in: currentUser.profile.friends } })
+
+
+
+});

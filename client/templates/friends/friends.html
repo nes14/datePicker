@@ -14,6 +14,9 @@
                     {{_id}}
                     {{profile.name}}
                     {{profile.about}}
+                    {{#if userNotFriend}}
+                    <button class="addBtn">add</button>
+                    {{/if}}
                 </li>
 
             {{/each}}
