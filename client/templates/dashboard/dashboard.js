@@ -48,6 +48,7 @@ Template.dashboard.events({
         if(confirm === true){
             Events.remove({_id: thisId});
         }
+        Notifications.error('Event Deleted', 'Your event was deleted successfully');
     }
 });
 

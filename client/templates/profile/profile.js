@@ -14,6 +14,7 @@ Template.profile.events({
             "profile.lastname":lastname,
             "profile.about":about
         }});
+        Notifications.success('Profile Updated', 'Your information was updated successfully');
     }
 });
 
