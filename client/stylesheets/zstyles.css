@@ -25,24 +25,6 @@
     padding: 3px;
 }
 
-/*SideBar Spacing and Styles (Don't really need if not using that layout*/
-.sideBar{
-    background: darkorange;
-}
-.sideBarCol{
-    float: left;
-    position: relative;
-    width: 20%;
-    height: 500px;
-    background: darkorange;
-}
-.templateCol{
-    margin-left: 20%;
-    position: relative;
-    width: 80%;
-    height: auto;
-}
-
 /*Event Section Spacing*/
 .eventDetails{
     float: left;
