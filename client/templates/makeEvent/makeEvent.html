@@ -21,9 +21,9 @@
                         <!--STILL WORKING ON THIS-->
                         {{#each friends}}
                             <li>
-                                {{emails/[0].address}}
 
-                                <button class="addBtn" onclick="$(this).toggleClass('toggleOn')">add</button>
+
+                                <button class="addBtn" onclick="$(this).toggleClass('toggleOn')">{{emails/[0].address}}</button>
 
                             </li>
                         {{/each}}
