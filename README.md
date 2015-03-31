@@ -26,4 +26,4 @@ during every aspect design and production. Main responsiblities are broken down 
 * View Events
 * Make Events
 * Edit Events
-* Friends
+
