@@ -1,6 +1,11 @@
 /*setup of eventData array, declaring global here so i can edit it in the render and edit events section */
 var eventData = [];
-var friendData = [];
+
+//comment this out
+var groupMembers = [];
+//uncomment this out and put a userid from friends page here preferably not you own
+//var groupMembers = [put a user id here];
+//Example: var groupMembers = ['mshaWX4DthpcE7sNj','dCjc8seD3LiMdiv5j'];
 
 Template.makeEvent.rendered = function() {
     /*Rendering Calendar and handling click events*/
@@ -46,10 +51,12 @@ Template.makeEvent.events({
             'userId': Meteor.userId(),
             'eventName': $(e.target).parent().find('#eventName').val(),
             'description': eventDescription,
-            'dates': eventData
+            'dates': eventData,
+            'groupMembers':groupMembers
         };
         /*resetting the eventData array*/
         eventData = [];
+        groupMembers = [];
         /*logging the eventData array*/
         console.log(eventData);
         newEvent._id = Events.insert(newEvent);
@@ -65,7 +72,11 @@ Template.makeEvent.events({
         console.log(thisId);
 
 
-        console.log(friendData);
+        console.log(groupMembers);
+
+
+        //Need to check array and if it contains the id remove it, else add it
+        //that will allow for toggling on who to invite
     }
 
 });
