@@ -15,7 +15,10 @@ Router.route('/friends', {
 });
 
 Router.route('/makeEvent',{
-	name: 'makeEvent'
+	name: 'makeEvent',
+    waitOn: function(){
+        return Meteor.subscribe("friendsList");
+    }
 });
 
 

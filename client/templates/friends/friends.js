@@ -20,10 +20,9 @@ Template.friends.events({'submit form' : function(event, template) {
 
         Meteor.users.update({_id: Meteor.user()._id}, {
             $addToSet: {
-                "profile.friends": thisId
-
+                "friends": thisId
             }
-        })
+        });
 
     }
 
@@ -34,7 +33,23 @@ Template.friends.helpers({
 
     userDirectory: function () {
         return Meteor.users.find();
+    },
+
+    userNotFriend: function() {
+        var user = Meteor.user();
+
+        // not any friends yet for this profile, so of course they can't be friends
+        if (! user || ! user.friends) {
+            return true;
+        }
+
+        if(Meteor.user().friends.indexOf(this._id) > -1)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
     }
-
-
 });

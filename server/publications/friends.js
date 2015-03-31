@@ -12,7 +12,7 @@ Meteor.publish("userlist", function () {
             'profile.lastname': 1,
             'profile.about': 1,
 
-
+            'emails':1,
 
             'emails[0].address': 1
         }});
@@ -23,9 +23,11 @@ Meteor.publish("userlist", function () {
 
 Meteor.publish('friendsList', function(){
 
-    //var currentUser = Meteor.users.findOne(this.userId,{fields: {'profile.friends':1}}) ;
-    //return Meteor.users.find({ _id: { $in: currentUser.profile.friends } })
-
-
+    var currentUser = Meteor.users.findOne(this.userId,{fields: {'profile.friends':1}});
+    if (currentUser && currentUser.friends) {
+        return Meteor.users.find({ _id: { $in: currentUser.friends } });    
+    } else {
+        return this.ready();
+    }
 
 });

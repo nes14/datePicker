@@ -1,5 +1,6 @@
 /*setup of eventData array, declaring global here so i can edit it in the render and edit events section */
 var eventData = [];
+var friendData = [];
 
 Template.makeEvent.rendered = function() {
     /*Rendering Calendar and handling click events*/
@@ -30,7 +31,9 @@ Template.makeEvent.rendered = function() {
 };
 
 Template.makeEvent.helpers({
-
+    friends: function () {
+        return Meteor.users.find({ _id: { $in: Meteor.user().friends } })
+    }
 });
 Template.makeEvent.events({
     /*Submit function, taking data from page eventName, description, and the array of eventData
@@ -53,5 +56,16 @@ Template.makeEvent.events({
         Session.set('newEventId', newEvent._id);
         Router.go('eventPage', newEvent);
         Notifications.success(newEvent.eventName, 'New Event was Created successfully');
+    },
+
+    //STILL WORKING ON THIS NO DATA IS BEING PUSHED YET INTO EVENTS
+    'click .addBtn': function(e) {
+        e.preventDefault();
+        var thisId = this._id;
+        console.log(thisId);
+
+
+        console.log(friendData);
     }
+
 });
