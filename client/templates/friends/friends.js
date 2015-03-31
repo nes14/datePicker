@@ -34,17 +34,7 @@ Template.friends.helpers({
 
     userDirectory: function () {
         return Meteor.users.find();
-    },
-
-    userNotFriend: function() {
-        if(Meteor.user().profile.friends.indexOf(this._id) > -1)
-        {
-            return false
-        }
-        else
-        {
-            return true;
-        }
-
     }
+
+
 });

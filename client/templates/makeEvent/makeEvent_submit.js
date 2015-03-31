@@ -30,9 +30,7 @@ Template.makeEvent.rendered = function() {
 };
 
 Template.makeEvent.helpers({
-    friends: function () {
-        return Meteor.users.find({ _id: { $in: Meteor.user().profile.friends } })
-    }
+
 });
 Template.makeEvent.events({
     /*Submit function, taking data from page eventName, description, and the array of eventData
