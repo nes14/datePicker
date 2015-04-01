@@ -1,11 +1,15 @@
+
+Session.setDefault('somePeople', []);
 Template.eventPage.rendered = function(){
     /*Getting Event data from iron-router and storing it into an array*/
     var eventData = this.data.dates;
 
+    somePeople = this.data.groupMembers;
 
+    Session.set('somePeople', this.data.groupMembers);
 
     console.log( this.data.groupMembers);
-
+    console.log(somePeople);
     var calendar = $('#eventCalendar').fullCalendar({
         /*dayRender function handling the intial rendering of days on page load*/
         dayRender: function (date, cell) {
@@ -23,11 +27,10 @@ Template.eventPage.helpers({
         This its an issue with this.data need to pull it from the Events array directly
         unsure atm how to get the id without this
      */
-   // friends: function () {
-        //var members = ;
-        //console.log(members);
-        //return Meteor.users.find({ _id: { $in: Meteor.userDirectory() } })
-  //  }
+    friends: function () {
+        Session.get('somePeople');
+        return Meteor.users.find({ _id: { $in: somePeople } })
+    }
 
 
 });
