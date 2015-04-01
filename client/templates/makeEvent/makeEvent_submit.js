@@ -69,8 +69,21 @@ Template.makeEvent.events({
     'click .addBtn': function(e) {
         e.preventDefault();
         var thisId = this._id;
-        console.log(thisId);
 
+        console.log(e.target);
+
+        if($(event.target).hasClass("toggleOn"))
+        {
+            console.log('friend on');
+            groupMembers.push(this._id);
+        }else{
+            console.log('friend Off');
+            for(var z = groupMembers.length; z--;) {
+                if (groupMembers[z] === this._id) {
+                    groupMembers.splice(z, 1);
+                }
+            }
+        }
 
         console.log(groupMembers);
 
