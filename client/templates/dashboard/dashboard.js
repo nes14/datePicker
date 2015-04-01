@@ -6,7 +6,7 @@ Meteor.startup(function () {
 
 Template.dashboard.rendered = function() {
 
-    if(Events.find({userId: Meteor.userId()}).count() === 0){
+    if(Events.find({$or: [{userId: Meteor.userId()}, {groupMembers: Meteor.userId()}]}).count() === 0){
         Session.set("hideButtons", false);
     }else{
         Session.set("hideButtons", true);
@@ -18,12 +18,12 @@ Template.dashboard.helpers({
 
     hidingButtons: function() { return Session.get('hideButtons'); },
 
-    createdByUser: function(){
-        if(Events.find({userId: Meteor.userId()}).count() === 0){
+    includesUser: function(){
+        if(Events.find({$or: [{userId: Meteor.userId()}, {groupMembers: Meteor.userId()}]}).count() === 0){
             Session.set("hideButtons", false);
         }else{
             Session.set("hideButtons", true);
-            return Events.find({userId: Meteor.userId()});
+            return Events.find({$or: [{userId: Meteor.userId()}, {groupMembers: Meteor.userId()}]});
         }
     }
 });
